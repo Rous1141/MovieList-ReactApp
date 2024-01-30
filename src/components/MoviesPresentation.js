@@ -18,7 +18,6 @@ export default function MoviesPresentation() {
     <div className='card' style={{transition: theme.transition,background:theme.background}}>
     <img src={movie.img}/>
      <h3 className ='title' style={{transition: theme.transition,color: theme.color}}>{movie.name}</h3>
-
      <p className='genre' style={{transition: theme.transition,color: theme.color}}>{movie.genre}</p>
      <p className='showtime' style={{transition: theme.transition,color: theme.color}}>{movie.show}</p>
      <p className='direct'style={{transition: theme.transition,color: theme.color}}>{movie.direct}</p>
